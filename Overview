@@ -1,0 +1,41 @@
+ How It Works (Overall Flow)
+    User → Uploads document/URL
+    Backend → Extracts text
+    AI Model → Processes text
+    System → Creates summary
+    Frontend → Displays result
+
+
+//🤖 Tech stack 
+
+Frontend:
+  - HTML/CSS/JavaScript
+  - React (later)
+
+Backend:
+  - Python + Flask/FastAPI
+
+AI:
+  - OpenAI API or Hugging Face models
+
+Document Processing:
+  - PyPDF2
+  - pdfplumber
+  - BeautifulSoup
+
+
+
+//Project progression
+
+
+Phase 1:
+Simple text summarizer
+
+Phase 2:
+PDF summarizer
+
+Phase 3:
+Documentation URL summarizer
+
+Phase 4:
+Chat with docs (RAG)
